@@ -1,21 +1,62 @@
 import React from 'react'
-
+import "./HomePageComponents/HomePage.css";
+import cake from "./HomePageComponents/cake.png";
 export default function HomePage() {
     return (
-        <>
-        <div>
+      <>
+      <div className="container">
+        <div className="search-bar-container">
+          <div className="search-1">
             <h2>還沒有想法嗎?</h2>
-            <h3>手邊有的食材</h3>
-            <input />
-            <h3>想吃哪國料理?</h3>
-            <select></select>
-            <div><button>搜尋</button></div>
+            <p className="search-text">手邊有的食材</p>
+            <input className="search-input"/><br/>
+            <span className="search-text">想吃哪國料理? </span>
+            <select name="serving">
+              <option value="">--請選擇種類--</option>
+              <option value="ch">台式</option>
+              <option value="ja">日式</option>
+              <option value="it">義式</option>
+              <option value="am">美式</option>
+            </select>
+            <div>
+              <button className="search-btn">搜尋</button>
+            </div>
+          </div>
+          <div className="search-2">
+            <h2 className="search-title-2">想吃甚麼料理?</h2>
+            <input className="search-input"/>
+            <div>
+              <button className="search-btn">搜尋</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="search-result">
+          <h2 className="result-title">搜尋結果如下:</h2>
+          <div className="result-items">
+            <div className="result-item">
+              <img className="result-img" src={cake}></img>
+              <p>草莓蛋糕</p>
+            </div>
+            <div className="result-item">
+              <img className="result-img" src={cake}></img>
+              <p>草莓蛋</p>
+            </div>
+            <div className="result-item">
+              <img className="result-img" src={cake}></img>
+              <p>草莓</p>
+            </div>
+            <div className="result-item">
+              <img className="result-img" src={cake}></img>
+              <p>草</p>
+            </div>
+            <div className="result-item">
+              <img className="result-img" src={cake}></img>
+              <p>草2</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <h2>想吃甚麼料理?</h2>
-        <input />
-        <div><button>搜尋</button></div>
-      </div>
-      </>
+    </>
     )
 }

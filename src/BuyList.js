@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 import ShoppingList from './BuyListComponents/ShoppingList';
 import Item from './BuyListComponents/Item';
 import ItemList from "./BuyListComponents/ItemList";
-
+import './App.css';
 
 export default function BuyList() {
     const [items, setItems] = useState([]);
