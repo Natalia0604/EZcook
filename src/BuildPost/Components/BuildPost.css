@@ -51,8 +51,8 @@ blockquote, q {
     width:1200px;
     margin:auto;
     background-color:#ffffff;
-    padding-left:15px;
 }
+
 h2{
     padding-top: 20px;
     font-size: 30px;
@@ -94,7 +94,7 @@ h2{
     border-radius: 5px;
     line-height: 60px;
     margin-left: 10px;
-    width:15%;
+    width:5%;
 }
 .delete-ingredient:hover{
     background-color: #D49A6A;
@@ -210,4 +210,23 @@ h2{
     line-height: 60px;
     margin-left: 10px;
     width:10%;
+}
+/* ViewPost.js */
+.serving-controll{
+    /* border:1px solid lightgrey; */
+    text-align:end;
+}
+
+.minus-btn,
+.plus-btn{
+    background-color: white;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    line-height: 60px;
+    margin-left: 10px;
+    width:5%;
+}
+.count{
+    font-size: 18px;
+    
 }

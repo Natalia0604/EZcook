@@ -1,7 +1,7 @@
 import React from 'react';
-import pasta from './pasta.png';
+import pasta from '../../img/pasta.png';
 
-export default function Directions() {
+export default function Directions(values,setValues) {
     // const [list, setList] = useState([]); //[{count:1,text:"步驟內容"},{count:2,text:"步驟內容2"}]
     // const [count, setCount]= useState(1);
     // const [text, setText] = useState("");
@@ -29,7 +29,12 @@ export default function Directions() {
                     </div>
                     <div className="step-item-info">
                         <p className="step-item-number">1</p>
-                        <input className="step-item-inputtext" placeholder="請輸入步驟說明(100字以內)"/>
+                        <input 
+                            className="step-item-inputtext" 
+                            placeholder="請輸入步驟說明(100字以內)" 
+                            name="directions"
+                            
+                        />
                     </div>
                 </div>
             </div>

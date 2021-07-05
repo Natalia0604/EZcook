@@ -1,4 +1,4 @@
-import {firestore} from "../firebase-service.js";
+import {firestore} from "../../firebase-service.js";
 import React,{useRef} from 'react';
 import uuidv4 from 'uuid/v4';
 

@@ -45,26 +45,23 @@ blockquote, q {
 /* -------------------------------------------------reset css---------------------------------------------------*/
 *{
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
-.container{
-    width:1200px;
-    margin:auto;
-    background-color:#ffffff;
-}
-
 h2{
     padding-top: 20px;
     font-size: 30px;
     font-weight: bold;
 }
 h3{
+    font-size: 25px;
     text-align: end;
     font-weight: bold;
 }
 .input-cloumn{
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .newItem{
     background-color:#FFD1AA;
@@ -73,11 +70,11 @@ h3{
     padding-left:5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    line-height: 30px;
+    line-height: 50px;
 }
 .add-btn{
-    height:35px;
-    width:40px;
+    height:55px;
+    width:60px;
     border-radius: 0 5px 5px 0;
     border: 0;
     background-color: #804515;

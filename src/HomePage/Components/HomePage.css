@@ -43,6 +43,7 @@
 }
 .result-img{
     width:250px;
+    margin-bottom: 10px;
 }
 .result-items{
     display: flex;
@@ -50,9 +51,11 @@
     /* background-color: aquamarine; */
     padding: 10px;
     text-align: center;
+    font-size: 20px;
 }
 .result-item{
-    background-color:cadetblue;
+    /* background-color:cadetblue; */
     margin: 20px;
-    
+    border:1px solid lightgrey;
+    box-shadow:0 3px 5px 0 lightslategray;
 }

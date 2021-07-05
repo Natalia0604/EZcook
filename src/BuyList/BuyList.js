@@ -1,9 +1,9 @@
-import "./BuyListComponents/BuyList.css";
+import "./Components/BuyList.css";
 import React,{useState} from 'react';
-import ShoppingList from './BuyListComponents/ShoppingList';
-import Item from './BuyListComponents/Item';
-import ItemList from "./BuyListComponents/ItemList";
-import './App.css';
+import ShoppingList from './Components/ShoppingList';
+import Item from './Components/Item';
+import ItemList from "./Components/ItemList";
+import '../App.css';
 
 export default function BuyList() {
     const [items, setItems] = useState([]);
